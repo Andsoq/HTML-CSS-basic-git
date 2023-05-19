@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(132, 96, 142);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: 100%;
+}
+h1 {
+    color:rgb(177, 177, 217);
+    font-size: 20px;
+    text-align: center;
+}
+hr {
+    color: rgb(201, 217, 168);
+    border: 1px solid;
+}
+p{
+    font-family: 'Courier New';
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+a{
+    color: blue;
+}
+a.virtuais{
+    color: greenyellow;
+}
+a.estrategia{
+    color:cadetblue
+}
+/*tutorial de como comentar*/

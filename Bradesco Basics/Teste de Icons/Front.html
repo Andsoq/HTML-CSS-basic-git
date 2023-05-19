@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>Andso</title>
+</head>
+<body id="demo">
+    <p class="titulo">Aprendizado até o momento</p><hr class="hr1">
+    <!--Utilização de HTML pra formatação da tabela-->
+    <p>Criação de tabelas</p>
+    <table id="Empresa">
+        <tr class="cima">
+            <th>Nomes</th>
+            <th>Funções</th>
+            <th>Especialidades</th>
+        </tr>
+        <tr class="andso">
+            <td class="andso">Anderson </td>
+            <td class="andso">Back-end </td>
+            <td class="andso">Ser ruim em tudo</td>
+        </tr>
+        <tr>
+            <td class="benedito">Benedito</td>
+            <td class="benedito">Front-end</td>
+            <td class="benedito">Deixar tudo bonito</td>
+        </tr>
+    </table>
+    <hr>
+    <!--Criação de forms-->
+    <p>Criação de formulários</p>
+    <form>
+        <p>Usuário <input type="text" name="user" size="15px" class="userbox"></p>
+        <p>Senha <input type="password" name="password" size="15px" class="userbox"></p>
+        <p>Estado <select>
+            <option value="option1">São Paulo</option>
+            <option value="option1">Rio de Janeiro</option>
+            <option value="option1">Minas Gerais</option>
+            <option value="option1">Pernambuco</option>
+        </select></p>
+        <p>Gênero <input type="radio" name="genero">Masculino
+        <input type="radio" name="genero">Feminino</p>
+    </form>
+    <hr>
+     <!--Criação de Link e listas-->
+    <p>Links e listas</p>
+    <ul class="hiper">
+    <li><a href="Tabelas FB2.html" target="_blank" name="TabelasFB" class="hipers">Criação de tabelas</a><br></li>
+    <li><a href="Frames.html" target="_blank" name="FramesFB" class="hipers">Criação de frames</a></li>
+    <li><a href="Formularios.html" target="_blank" name="FormuláriosFB" class="hipers">Criação de Formulários</li></a>
+    </ul>
+    <hr>
+    <p>Criação de Iframes</p>
+    <iframe class="iframest" src="Tabelas FB2.html"></iframe>
+    <hr>
+    <!--Criação de JS-->
+    <p>Primeiro JS</p>
+    <button type="button" onclick="myFunction()">Clique aqui para alterar o fundo do site</button>
+    <script>
+        function myFunction(){
+            document.getElementById("demo").style.color = "white";
+            document.getElementById("demo").style.backgroundColor = "bisque";
+        }
+        function minhaFuncao(){
+            document.getElementById("demo").style.backgroundColor = "rgba(34, 150, 73, 0.258)" 
+            document.getElementById("demo").style.color = "black"; 
+        }
+    </script>
+    <button class="revert" type="button" onclick="minhaFuncao()">Clique aqui para reverter</button>
+</body>
+</html>

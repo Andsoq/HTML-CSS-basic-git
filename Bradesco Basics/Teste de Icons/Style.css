@@ -1,0 +1,60 @@
+.titulo{
+    color: rgb(40, 2, 2);
+    text-align: center;
+    background-color: rgba(150, 207, 165, 0.302);
+}
+
+/*Estilização da tabela*/
+#Empresa{
+    border: 1px solid;
+    width: 350px;
+    height: 150px;
+}
+.cima{
+    background-color: rgb(142, 192, 150);
+    border-bottom: 1px solid;
+}
+.andso{
+    border-bottom: 1px solid;
+    background-color: bisque;
+    text-align: center;
+    padding: 8px;
+}
+.benedito{
+    border-bottom: 1px solid;
+    background-color: rgb(192, 151, 151);
+    text-align: center;
+    padding: 8px;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+/*Estilização do Forms*/
+.userbox{
+    width: 30%;
+    position: absolute;
+    left: 75px;
+}
+
+/*estilização dos links*/
+.hiper{
+    list-style:lower-greek
+}
+body{
+    background-image: linear-gradient(to right, rgba(34, 150, 73, 0.258), rgb(220, 206, 206));
+}
+
+/*Estilização do Iframe*/
+.iframest{
+    border: 1px solid;
+    width: 320px;
+    height: 160px;
+}
+
+/*Estilização do JS*/
+.revert{
+    position: relative;
+    top: 05px;
+}
+
