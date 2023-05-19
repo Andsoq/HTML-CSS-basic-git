@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>P2 do Salame</title>
+</head>
+<body>
+  <img src="Azul.png" width="750px" height="300px" class="logo">
+  <p class="viagem"><b>Viajando para as 7 maravilhas do mundo com a Azul!</b></p>
+    <form method="post">
+    <fieldset class="field1">
+        <p class="textos">Digite o seu nome: <input type="text" name="nome" size="30" placeholder="Nome completo" class="textos"><br><br>
+            Digite a sua idade: <input type="text" name="idade" size="2" maxlength="2" placeholder="Idade"class="textos"><br><br>
+            Digite seu dia de ida: <input type="date" name="ida" size="15" placeholder="Azul"class="textos"><br><br>
+            Digite seu dia de volta: <input type="date" name="volta" size="15" placeholder="SP"class="textos"><br><br>
+            Você irá acompanhado?<br> <input type="radio" name="Acompanhado" class="maravilhas">Sim<br>
+            <input type="radio" name="Acompanhado" class="maravilhas">Não<br>
+            <p class="textos">Se sim, quantas pessoas irão? <select class="textos">
+            <option class="textos">1</option>
+            <option class="textos">2</option>
+            <option class="textos">3</option>
+            <option class="textos">4</option>
+            <option class="textos">5≥</option>
+            </select>
+            </p>
+        </p>
+    </fieldset>
+    <fieldset class="field2">
+    <p class="options">Maravilhas que deseja visitar:</p>
+    <p class="options"><img src="Cristo redentor.png" height="300px" width="300px" class="places"> <input type="checkbox" name="Cristo" class="maravilhas">Cristo Redentor, Brasil</p></input><br>
+    <p class="options"><img src="Machu Picchu.png" height="300px" width="300px" class="places"> <input type="checkbox" name="Machu" class="maravilhas">Machu Picchu, Peru</p></input><br>
+    <p class="options"><img src="Chichen Itza.png" height="300px" width="300px" class="places"> <input type="checkbox" name="Chichen" class="maravilhas">Chichén Itza, México</p></input><br>
+    <p class="options"><img src="Coliseu.png" height="300px" width="300px" class="places"> <input type="checkbox" name="Coliseu" class="maravilhas">Coliseu, Itália</p></input><br>
+    <p class="options"><img src="Ruínas de Petra.png" height="300px" width="300px" class="places"> <input type="checkbox" name="Ruinas" class="maravilhas">Ruínas de Petra, Jordânia</p></input><br>
+    <p class="options"><img src="Taj Mahal.png" height="300px" width="300px" class="places"> <input type="checkbox" name="Taj Mahal" class="maravilhas">Taj Mahal, Índia</p></input><br>
+    <p class="options"><img src="Grande Muralha da China.png" height="300px" width="300px" class="places"> <input type="checkbox" name="Muralha" class="maravilhas">Grande Muralha da China, China</p></input><br>
+    </fieldset>
+    <fieldset class="field3">
+        <p class="textos">Você já conhecia alguma dessas 7 maravilhas? Se sim, comente como as descobriu!<br><textarea name="textarea" cols="35" rows="6" class="textos"></textarea>
+        <p class="textos">Digite o e-mail que receberá a viagem <input type="email" name="email" size="30px" placeholder="E-mail" class="textos"></p>
+        <input type="submit" value="Receber :)" class="textos">
+        <input type="reset" value="Desistir :(" class="textos">
+    </fieldset>
+</form>
+</body>
+</html>
